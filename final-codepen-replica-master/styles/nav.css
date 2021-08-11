@@ -1,0 +1,104 @@
+/* Navigation CSS */
+.navigation-wrapper {
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    
+}
+
+.navigation-wrapper > .left-wrapper > .logo-wrapper img{
+    width: 180px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+
+
+.navigation-wrapper > .center-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.navigation-wrapper > .center-wrapper > .links-wrapper-header p{
+    color: #ffdd40;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    line-height: 0px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    width: 350px;
+}
+
+.links-wrapper > .nav-links a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.links-wrapper > .nav-links a:hover{
+    color: #5a5f73;    
+}
+
+.create-spark > .create-spark-button {
+    background-color: black;
+    border: none;
+    color: #9ca0b1;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    
+}
+.create-spark > .create-spark-button:hover{
+    color: #0ebeff;
+    letter-spacing: .5px;
+}
+
+.right-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.right-wrapper > .nav-button button {
+    background-color: #3D3E43;
+    color: white;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.right-wrapper > .nav-button > .searchbar {
+    background-color: black;
+    
+}
+
+.right-wrapper > .nav-button > .searchbar i{
+    font-size: 30px;
+    color: #444857;
+}
+
+.right-wrapper > .nav-button > .create-menu i{
+    color: #47cf73;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+  left: 5px;
+}
